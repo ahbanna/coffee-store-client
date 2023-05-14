@@ -9,7 +9,9 @@ function App() {
 
   return (
     <div>
-      <h2>Total coffees are: {coffees.length}</h2>
+      <h2 className="text-4xl text-blue-700">
+        Total coffees are: {coffees.length}
+      </h2>
       {/* {coffees.map((coffee) => (
         <div>
           <p>{coffee.name}</p>
